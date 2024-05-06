@@ -16,6 +16,12 @@ import com.bharath.basicassignment.presentation.MyNavHost
 import com.bharath.basicassignment.ui.theme.BASICAssignmentTheme
 import dagger.hilt.android.AndroidEntryPoint
 
+/**
+ * Supabase Api keys are stored in build config file
+ * so if you pulled this repository from Github then this won't work as Api Key is required
+ * contact : bharathayinala@gmail.com for API keys.
+ */
+
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
