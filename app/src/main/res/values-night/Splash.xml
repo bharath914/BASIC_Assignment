@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="My.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenIconBackgroundColor">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="postSplashScreenTheme">@style/Theme.BASICAssignment</item>
+    </style>
+</resources>
